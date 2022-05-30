@@ -1,4 +1,8 @@
+// import dotenv from 'dotenv'
+// dotenv.config()
+
 export default {
+  // api_key: process.env.REACT_APP_TMDB_API_KEY,
   api_key: "e15ea5586c328ae9a4a2fdd8533fe48c",
   films: [
     {
