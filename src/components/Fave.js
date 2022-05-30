@@ -13,7 +13,7 @@ class Fave extends Component {
   }
 
   render() {
-    const isFave = this.props.isFave ? "remove_from_queue" : "add_to_queue";
+    const isFave = this.props.isFave ? "📤" : "📥";
 
     return (
       <div className={`film-row-fave ${isFave}`} onClick={this.handleClick}>

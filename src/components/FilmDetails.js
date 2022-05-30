@@ -2,9 +2,7 @@ import React from "react";
 
 function FilmDetails(props) {
   const backdropUrl = `https://image.tmdb.org/t/p/w1280/${props.film.backdrop_path}`;
-
   const posterUrl = `https://image.tmdb.org/t/p/w780/${props.film.poster_path}`;
-
   let detail;
 
   if (props.film.id) {
