@@ -29,7 +29,7 @@ function FilmDetails(props) {
     detail = (
       <div className="film-detail">
         <p>
-          <i className="material-icons">subscriptions</i>
+          <i className="material-icons">🎬</i>
           <span>No film selected</span>
         </p>
       </div>
